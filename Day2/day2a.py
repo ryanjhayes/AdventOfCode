@@ -25,15 +25,6 @@
 
 # What would your total score be if everything goes exactly according to your strategy guide?
 
-#Manipulate puzzle input
-#with open(r'''C:\Users\ryan.hayes\Downloads\Code\AdventofCode\Day2\data.in''') as file:
- #   data = [i for i in file.read().split(" ")]
-# fields = []
-# with open(r'''C:\Users\ryan.hayes\Downloads\Code\AdventofCode\Day2\data.in''') as infile: #read and write to file
-#     map(lambda line: fields.extend(line.split()), infile)
-       
-# print(fields)
-
 input_file: str = "C:\\Users\\ryan.hayes\\Downloads\\Code\\AdventofCode\\Day2\\data.txt"
 plays: list[tuple] = []
 with open(input_file, 'r', newline='') as input_:
